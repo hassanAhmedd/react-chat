@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.ticket-message-block {
+  margin-bottom: 15px;
+}
+.ticket-message-block .ticket-message {
+  box-shadow: 2px 2px 13px 0 #0000001a;
+  padding: 10px;
+}
+.ticket-message-right .ticket-message {
+  border-radius: 8px 8px 0 8px;
+}
+.ticket-message-right .ticket-message {
+  background: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 15px;
+}
+.ticket-message {
+  word-break: break-word;
+}
+.customBtn{
+  display: block;
+  width: 100%;
+  margin: 25px 6px 0 0;
+  border: 0;
+  font-size: 18px;
+  height: 50px;
+  border-radius: 10px;
+  background: #2635dd;
+  background: -moz-linear-gradient(-70deg, #2635dd 0%, #04bdfc 100%);
+  background: -webkit-linear-gradient(-70deg, #2635dd 0%,#04bdfc 100%);
+  background: linear-gradient(160deg, #2635dd 0%,#04bdfc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3fa9f5', endColorstr='#0071bc',GradientType=1 );
+}
